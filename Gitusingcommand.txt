@@ -1,0 +1,29 @@
+github ->open account
+		enter username for git hub
+		enter emailid
+		enter password.
+	open your email and verify..
+--login to your account on github...
+--create repository (right side top corner )
+--copy link of you repository...
+-------------------------------------------------------
+download git setup
+	install....
+------------------------------------------------------
+create folder in local system..->right click in folder..->open gitbash
+enter following commands...
+	
+FINAL---Configute git with github...
+1.set username
+$ git config --global user.name "rahulahire7"
+2.set email id.
+$ git config --global user.email rahul.ahire@gmail.com
+3.clone...
+$ git clone https://github.com/rahulahire7/LinkCodeAdJava.git
+---------------------
+Push:->
+git add filename
+git status(to view changes)
+git commit -m "First Commit" filename
+git push -u origin master
+-----------------------------------------------
